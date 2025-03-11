@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resume Card</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel='stylesheet' href='https://icono-49d6.kxcdn.com/icono.min.css'>
+    <link rel="stylesheet" href="static/style.css">
+
     <style>
         @font-face {
             font-family: "digi";
@@ -18,7 +21,10 @@
         body {
             background-image: url("mario.gif");
             background-repeat: no-repeat;
-            background-size: cover;
+            background-size:cover;
+            /* fix the background image */
+            background-attachment: fixed;
+
             font-family: "lz", sans-serif;
             display: flex;
             justify-content: center;
@@ -95,12 +101,21 @@
     </style>
 </head>
 <body>
+    <!-- audio for background -->
+    
+
+
+      
+    
     <div class="resume-card">
 
+
+
+        
         <div class="card-header">
             Ali Jafari
             <p style="font-size: 0.7em; font-weight: normal; margin-top: 5px;">Backend Developer</p>
-            <small style="font-size: xx-small;"> My birthday: 2007   September  4   , Friday 🎂🍰</small>
+            <small style="font-size: xx-small;"> My birthday: 2009   September  4   , Friday 🎂🍰</small>
         </div>
         <img class="profile-img" src="img.jpg" alt="Ali Jafari">
         <h3 id="clock" style="color: rgb(0, 0, 0);" dir="ltr"></h3>
@@ -112,11 +127,16 @@
                 <span>Drf</span>
                 <span>Html</span>
                 <span>Css</span>
+                <span>React.js</span>
                 <span>Bootstrap 5.3</span>
                 <span>Redis</span>
+                <span>Docker</span>
+                <span>Clean Code</span>
                 <span>PostgreSQL</span>
                 <span>Backend Development</span>
             </div>
+
+
             <div class="social-icons">
                 <a href="https://t.me/ali_j4fari" target="_blank" aria-label="Telegram">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-telegram" viewBox="0 0 16 16">
@@ -145,9 +165,24 @@
                         <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
                       </svg>
                 </a>
+
+                <a href="static/resume/mid-backend.pdf" target="_blank" aria-label="Resume">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-cloud-arrow-down" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M7.646 10.854a.5.5 0 0 0 .708 0l2-2a.5.5 0 0 0-.708-.708L8.5 9.293V5.5a.5.5 0 0 0-1 0v3.793L6.354 8.146a.5.5 0 1 0-.708.708z"/>
+                        <path d="M4.406 3.342A5.53 5.53 0 0 1 8 2c2.69 0 4.923 2 5.166 4.579C14.758 6.804 16 8.137 16 9.773 16 11.569 14.502 13 12.687 13H3.781C1.708 13 0 11.366 0 9.318c0-1.763 1.266-3.223 2.942-3.593.143-.863.698-1.723 1.464-2.383m.653.757c-.757.653-1.153 1.44-1.153 2.056v.448l-.445.049C2.064 6.805 1 7.952 1 9.318 1 10.785 2.23 12 3.781 12h8.906C13.98 12 15 10.988 15 9.773c0-1.216-1.02-2.228-2.313-2.228h-.5v-.5C12.188 4.825 10.328 3 8 3a4.53 4.53 0 0 0-2.941 1.1z"/>
+                    </svg>
+                </a>
+
+                
+
             </div>
+            
         </div>
     </div>
     <script src="static/js/app.js"></script>
+    <script src="static/js/player.js"></script>
+
+
+
 </body>
 </html>
